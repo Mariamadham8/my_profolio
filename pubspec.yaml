@@ -1,0 +1,26 @@
+name: mariam_portfolio
+description: Proteus-style creative portfolio for Mariam Adham.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+  web: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Flutter does not pick up sub-folders on its own, so list each one.
+    - images/
+    - images/projects/
