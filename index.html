@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/my_profolio/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mariam Adham | Flutter Engineer</title>
+  <meta name="description" content="Portfolio of Mariam Adham Abdelfattah, Flutter engineer building scalable cross-platform mobile apps.">
+
+  <!-- Open Graph: add web/og-image.png (1200x630) so links look good on LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mariam Adham | Flutter Engineer">
+  <meta property="og:description" content="A schematic-style portfolio: Flutter, Clean Architecture, and embedded roots.">
+  <meta property="og:image" content="og-image.png">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* System color keywords, so no hardcoded colors here. */
+    :root { color-scheme: dark; }
+    html, body { margin: 0; height: 100%; background: Canvas; }
+    #boot {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+      background: Canvas; color: CanvasText;
+      font-family: ui-monospace, "JetBrains Mono", Menlo, Consolas, monospace;
+      font-size: 14px; letter-spacing: 0.04em;
+    }
+    #boot span { animation: blink 1s steps(2, start) infinite; }
+    @media (prefers-reduced-motion: reduce) { #boot span { animation: none; } }
+    @keyframes blink { to { visibility: hidden; } }
+  </style>
+</head>
+<body>
+  <div id="boot">U1 booting<span>_</span></div>
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      var boot = document.getElementById('boot');
+      if (boot) boot.remove();
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
