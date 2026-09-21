@@ -88,7 +88,7 @@ abstract final class PortfolioData {
   static const tagline = 'Mobile Applications Developer';
 
   /// Drop your photo here (any size, square-ish crops best).
-  static const photoAsset = 'images/mariam.jpg';
+  static const photoAsset = 'assets/images/mariam.jpg';
 
   // ---- Canvas layout -----------------------------------------------------
   static const worldSize = Size(3200, 2200);
