@@ -72306,7 +72306,7 @@ r=A.eG(8)
 n=n.w
 q=A.iO(n,2)
 n=A.c([new A.eH(0,B.bP,n.cn(60),B.h,14)],t.sq)
-return A.dR(p,A.aih(A.eG(6),A.an9("images/mariam.jpg",B.k_,new A.a2i(o.ax,o),B.k5)),B.q,p,new A.ca(p,p,q,r,n,p,B.ag),p,s,p,p,p,p,s)}}
+return A.dR(p,A.aih(A.eG(6),A.an9("assets/images/mariam.jpg",B.k_,new A.a2i(o.ax,o),B.k5)),B.q,p,new A.ca(p,p,q,r,n,p,B.ag),p,s,p,p,p,p,s)}}
 A.a2i.prototype={
 $3(a,b,c){var s,r,q=null,p=this.a,o=p.d
 if(o==null)o=p.b
