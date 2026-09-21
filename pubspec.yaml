@@ -21,6 +21,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    # Flutter does not pick up sub-folders on its own, so list each one.
-    - images/
-    - images/projects/
+    - assets/images/
+    - assets/images/projects/
